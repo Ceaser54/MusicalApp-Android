@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.music.Adele">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="@drawable/adele" />
+
+        <Button
+            android:id="@+id/intentdiab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="450dp"
+            android:text="@string/diab"
+            android:textAllCaps="false" />
+
+
+        <Button
+            android:id="@+id/intentkenny"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="450dp"
+            android:text="@string/kenny"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/image3"
+            android:layout_marginLeft="200dp"
+            android:background="@drawable/ic_play_circle_outline_black_24dp" />
+
+        <Button
+            android:id="@+id/pause"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/image3"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/ic_pause_circle_outline_black_24dp" />
+
+
+    </RelativeLayout>
+</ScrollView>

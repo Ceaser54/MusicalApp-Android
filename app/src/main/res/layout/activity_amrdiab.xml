@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.music.Amrdiab">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="@drawable/diab"
+            android:scaleType="centerCrop" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:textAllCaps="false"
+            android:id="@+id/intent1"
+            android:layout_marginTop="450dp"
+            android:text="@string/adele" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textAllCaps="false"
+            android:id="@+id/intent2"
+            android:layout_marginTop="450dp"
+            android:text="@string/kenny" />
+
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/image2"
+            android:layout_marginLeft="220dp"
+            android:background="@drawable/ic_play_circle_outline_black_24dp" />
+
+        <Button
+            android:id="@+id/pause"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/image3"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="400dp"
+            android:background="@drawable/ic_pause_circle_outline_black_24dp" />
+
+
+    </RelativeLayout>
+</ScrollView>
